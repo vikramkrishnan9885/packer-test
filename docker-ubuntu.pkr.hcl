@@ -45,13 +45,13 @@ build {
       "apt-get update",
       "apt-get install -y ruby-full",
       "apt-get install -y git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev",
-"cat example.txt",      
-"cd tests/tests",
+      "cat example.txt",
+      "cd tests/tests",
       "ls",
       "gem install bundler --no-document",
-"bundle install",
-"rspec --init",      
-"bundle exec rspec",
+      "bundle install",
+      "rspec --init",
+      "bundle exec rspec",
     ]
   }
 }
